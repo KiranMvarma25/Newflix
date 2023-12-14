@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link type="text/css" rel="stylesheet" href="login.css">
+
+    <style>
+        body{
+            background-image: url(introo.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+
+            align: center;
+        }
+
+        label{
+            color: rgba(255, 255, 255, 0.505);
+            text-shadow: 1px 1px 3px;
+            font-size: 45px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .last{
+            color: rgb(10, 255, 165);
+            margin-left: 250px;
+            background-color:rgba(14, 7, 225, 0.699);
+            box-shadow: 2px 2px 5px;
+            width: 200px;
+            text-align: center;
+            padding: 10px;
+            
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+    <div class="last">
+        <p>idno = 56789</p>
+        <p>password = 12345</p>
+    </div>
+
+    <div class="log">
+        <!--<form action="form.php" method="post" enctype="multipart/form-data">-->
+            
+            <label for="idno" style="margin-top: 20px;">Id No</label>
+            <br>
+            <input type="text" class="input" id="idno" minlength="3" maxlength="10" required placeholder=" 1234">
+            <br>
+            <br>
+            <label for="password">Password</label>
+            <br>
+            <input type="password" id="password" class="input"  minlength="3" maxlength="10" required>
+            <br>
+            <br>
+            <input type="submit" id="mySubmit">
+            <input type="reset">
+            <br>
+            <p style="color: white;">After clicking submit button, you will find ENTER below <p>
+        <!--</form>-->
+    </div>
+    <br>
+    
+    
+
+
+    <script src="login.js"></script>
+</body>
+</html>
