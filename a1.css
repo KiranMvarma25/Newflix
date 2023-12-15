@@ -73,18 +73,19 @@ img:hover {
     cursor: pointer;
 }
 
-/*
+@media (max-width:600px){
+    .videoo{
+        width: 27%;
+        height: 25%;
+    }
 
-@keyframes moveImage {
-    0% { transform: translateX(50px); }
-    50% { transform: translateX(125px); }
-    100% { transform: translateX(50px); }
+    #img{
+        margin: auto;
+        height: 125px; 
+        width: 107px; 
+        border: 1px solid rgb(100, 92, 92);
+        border-radius: 10px;
+        box-sizing: border-box; 
+    }
 }
 
-img {
-    position: relative;
-    animation: moveImage 7s 1;
-    
-}
-
-*/
